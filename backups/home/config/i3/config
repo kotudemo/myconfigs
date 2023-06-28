@@ -235,7 +235,7 @@ bindsym $mod+p exec /usr/local/bin/switch-audio-port
 ## App shortcuts
 #bindsym $mod+w exec /usr/bin/firefox
 bindsym $mod+n exec /usr/bin/thunar
-bindsym Print exec flameshot gui -c
+bindsym Print exec flameshot gui -c -p ~/flameshots
 bindsym Ctrl+Print exec flameshot full -c -p ~/flameshots
 
 # Power Profiles menu switcher (rofi)
